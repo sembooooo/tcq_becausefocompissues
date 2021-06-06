@@ -1,4 +1,4 @@
-#include "Reciever.h"
+#include "reciever.h"
 #include <unistd.h>
 #include <poll.h>
 #include <stdio.h>
