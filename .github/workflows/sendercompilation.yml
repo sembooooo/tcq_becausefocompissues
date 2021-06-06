@@ -14,4 +14,4 @@ jobs:
     - name: build Tx
       run: gcc -o Tx Tx.c
     - name: run
-      run: ./Tx
+      run: ./Tx | ./Rx
