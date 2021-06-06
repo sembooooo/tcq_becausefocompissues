@@ -9,7 +9,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: gcc -o executer *.c
+    - name: build Rx
+      run: gcc -o Rx Reciever.c
+    - name: build Tx
+      run: gcc -o Tx Tx.c
     - name: run
-      run: ./executer 
+      run: ./Tx | ./Rx
